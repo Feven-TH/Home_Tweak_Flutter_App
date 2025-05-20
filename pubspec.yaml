@@ -1,0 +1,48 @@
+name: frontend
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI essentials
+  cupertino_icons: ^1.0.8
+
+  # State management (MVVM-friendly)
+  flutter_riverpod: ^2.5.1
+  hooks_riverpod: ^2.5.1
+  flutter_hooks: ^0.20.5
+
+  # Networking
+  dio: ^5.4.3+1
+
+  # Persistent storage for token
+  shared_preferences: ^2.2.2
+
+  # JSON & model codegen
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting & formatting
+  flutter_lints: ^5.0.0
+
+  # JSON codegen tools
+  build_runner: ^2.4.8
+  freezed: ^2.5.2
+  json_serializable: ^6.7.1
+
+  # Integration testing
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
